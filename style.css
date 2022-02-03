@@ -1,0 +1,81 @@
+/* 1. Open your style.css file and complete the following (NOTE: Everything is to be completed in the CSS file. Do NOT change or add to the HTML file.)... */
+
+/* 2. Give the body element a background of #CED4D8 */
+body {
+    background-color: #ced4d8;
+}
+
+/* 3. Make the h1 element #AC6AC7 */
+h1 {
+    color: #ac6ac7
+}
+
+/* 4. Make all h2 elements rgb(255,165,0) */
+h2 {
+    color: rgb(255, 165, 0)
+}
+
+/* 5. Make all li elements blue */
+
+li {
+    color: blue
+}
+
+/* 6. Change the background on every paragraph to be gold */
+p {
+    color: gold
+}
+
+/* 7. Make all inputs with the type of text or email have a 5px pink dotted border */
+input {
+    border: 5px dotted pink 
+}
+
+/* 8. Give everything with the class ‘first’ an #fff background */
+.first {
+    background-color: #fff
+}
+
+/* 9. Give the element with id ‘important’ a 3px blue dashed border (Use hexadecimal to create a blue color) */
+#important {
+    border: 3px dashed blue
+}
+
+/* 10. Make all the p elements that are nested inside of divs 30px font (font-size: 30px) */
+div p {
+    font-size: 30px;
+}
+
+/* 11. Make only inputs with type ‘email’ have a #808080 background */
+input[type=email] {
+    background-color:#808080
+}
+
+/* 12. Give both p elements inside the 3rd div a hot pink background */
+div:nth-of-type(3) p {
+    background-color: hotpink;
+}
+
+/* 13. Give the 2nd p element inside the 3rd div a 7px solid rgb(255, 255, 255) border */
+div:nth-of-type(3) p:nth-of-type(2) {
+    background-color: rgb(255, 255, 255)
+}
+
+/* 14. Make the text in the em tag/element in the 3rd div element seashell color and 25px font (font-size:25px) */
+div:nth-of-type(3) em {
+    color: seashell;
+    font-size: 25px;
+}
+
+
+/* BONUS */
+
+/* 1. Make all “checked” checkboxes have a left margin of 40px */
+
+/* 2. Make the text in all the label elements lowercase (Remember you cannot change the HTML file) */
+
+/* 3. Make the first letter of the element with id ‘important’ lime color and 90px font size */
+
+/* 4. Make the h1 element’s color change to navy when hovered over */
+
+/* 5. Make the a tags that have been visited silver  */
